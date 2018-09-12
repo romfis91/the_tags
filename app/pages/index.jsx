@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import ToGame from '../components/ToGame';
+import ToGame from '../components/the-tag/ToGame';
 
 const Index = () =>  (
     <Layout>

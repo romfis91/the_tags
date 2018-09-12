@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { isValidStep, getAvailableValues, isWin } from '../games/theTag';
+import { isValidStep, getAvailableValues, isWin } from '../../games/theTag';
 
 const BOARD_WIDTH = 400;
 const BOARD_HEIGHT = 400;

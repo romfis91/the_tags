@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import TheTag from '../components/TheTag';
-import {withRouter} from 'next/router';
+import TheTag from '../components/the-tag/TheTag';
 import {getGame, getCombination} from '../http';
 
 const Game = (props) => (
@@ -18,4 +17,4 @@ Game.getInitialProps = async (context) => {
     return {game, combination};
 };
 
-export default withRouter(Game);
+export default Game;

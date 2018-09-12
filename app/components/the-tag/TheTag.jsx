@@ -3,7 +3,7 @@ import GameBoard from './GameBoard';
 import GameHistory from './GameHistory';
 import ToGame from './ToGame';
 import PropTypes from 'prop-types';
-import {getCombinationBySchema, updateGame} from '../http'
+import {getCombinationBySchema, updateGame} from '../../http/index'
 
 class TheGame extends React.Component {
 
